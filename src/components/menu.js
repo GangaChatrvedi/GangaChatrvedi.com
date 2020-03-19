@@ -104,7 +104,11 @@ const Menu = ({ menuOpen, toggleMenu }) => {
                 </NavListItem>
               ))}
           </NavList>
-          <ResumeLink href="/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">
+          <ResumeLink
+            style={{ display: 'none' }}
+            href="/resume.pdf"
+            target="_blank"
+            rel="nofollow noopener noreferrer">
             Resume
           </ResumeLink>
         </NavLinks>

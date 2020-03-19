@@ -14,10 +14,10 @@ const IndexPage = ({ location, data }) => (
     <StyledMainContainer>
       <Hero data={data.hero.edges} />
       <About data={data.about.edges} />
-      <Jobs data={data.jobs.edges} />
-      <Featured data={data.featured.edges} />
-      <Projects data={data.projects.edges} />
-      <Contact data={data.contact.edges} />
+      {false ? <Jobs style={{ display: 'none' }} data={data.jobs.edges} /> : null}
+      {false ? <Featured style={{ display: 'none' }} data={data.featured.edges} /> : null}
+      {false ? <Projects style={{ display: 'none' }} data={data.projects.edges} /> : null}
+      {false ? <Contact style={{ display: 'none' }} data={data.contact.edges} /> : null}
     </StyledMainContainer>
   </Layout>
 );

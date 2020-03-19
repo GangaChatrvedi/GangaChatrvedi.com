@@ -281,10 +281,10 @@ class Nav extends Component {
               </TransitionGroup>
             </StyledList>
 
-            <TransitionGroup component={null}>
+            <TransitionGroup component={null} style={{ display: `none` }}>
               {isMounted && (
                 <CSSTransition classNames="fadedown" timeout={3000}>
-                  <div style={{ transitionDelay: `600ms` }}>
+                  <div style={{ transitionDelay: `600ms`, display: `none` }}>
                     <StyledResumeButton
                       href="/resume.pdf"
                       target="_blank"

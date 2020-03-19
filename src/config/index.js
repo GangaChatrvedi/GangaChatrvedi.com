@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: 'Ganga Chaturvedi | Full Stack Developer',
   siteDescription: 'Ganga Chaturvedi is a full stack developer based in Delhi, India.',
   siteKeywords:
-    'Ganga Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
+    'Ganga Chaturvedi, Ganga Chatrvedi, Ganga, Chaturvedi, GangaChatrvedi, gangachatrvedi, full stack developer, front-end developer, web developer, javascript, delhi',
   siteUrl: 'https://gangachatrvedi.com',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
@@ -15,23 +15,23 @@ module.exports = {
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/GangaChatrvedi',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/gangachatrvedi/',
     },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
+    // {
+    //   name: 'Codepen',
+    //   url: 'https://codepen.io/bchiang7',
+    // },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/gangaChatrvedi/',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/GangaChatrvedi',
     },
   ],
 
