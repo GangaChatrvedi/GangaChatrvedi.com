@@ -98,25 +98,27 @@ const Footer = ({ githubInfo }) => (
       </StyledSocialList>
     </StyledSocial>
     <StyledMetadata>
-      <StyledGitHubLink
-        href="https://github.com/GangaChatrvedi"
-        target="_blank"
-        rel="nofollow noopener noreferrer">
-        <div>Designed &amp; Built by Ganga Chaturvedi</div>
+      {true ? null : (
+        <StyledGitHubLink
+          href="https://github.com/GangaChatrvedi"
+          target="_blank"
+          rel="nofollow noopener noreferrer">
+          <div>Designed &amp; Built by Ganga Chaturvedi</div>
 
-        {githubInfo.stars && githubInfo.forks && (
-          <StyledGitHubInfo>
-            <span>
-              <IconStar />
-              <span>{githubInfo.stars}</span>
-            </span>
-            <span>
-              <IconFork />
-              <span>{githubInfo.forks}</span>
-            </span>
-          </StyledGitHubInfo>
-        )}
-      </StyledGitHubLink>
+          {githubInfo.stars && githubInfo.forks && (
+            <StyledGitHubInfo>
+              <span>
+                <IconStar />
+                <span>{githubInfo.stars}</span>
+              </span>
+              <span>
+                <IconFork />
+                <span>{githubInfo.forks}</span>
+              </span>
+            </StyledGitHubInfo>
+          )}
+        </StyledGitHubLink>
+      )}
     </StyledMetadata>
   </StyledContainer>
 );
